@@ -1,26 +1,26 @@
 // Your code here
 
 const mapToNegativize = sourceArray =>{
-  let newArray = []
-  sourceArray.forEach(element => newArray.push(-1 * element))
-  return newArray
-}
+  let newArray = [];
+  sourceArray.forEach(element => newArray.push(-1 * element));
+  return newArray;
+};
 
 const mapToNoChange = sourceArray =>{
-  return sourceArray
-}
+  return sourceArray;
+};
 
 const mapToDouble = sourceArray =>{
-  let newArray = []
-  sourceArray.forEach(element => newArray.push(element * 2))
-  return newArray
-}
+  let newArray = [];
+  sourceArray.forEach(element => newArray.push(element * 2));
+  return newArray;
+};
 
 const mapToSquare = sourceArray =>{
-  let newArray = []
-  sourceArray.forEach(element => newArray.push(element * element))
-  return newArray
-}
+  let newArray = [];
+  sourceArray.forEach(element => newArray.push(element * element));
+  return newArray;
+};
 
 const reduceToTotal = (sourceArray, startingPoint = 0) =>{
   let total = startingPoint
