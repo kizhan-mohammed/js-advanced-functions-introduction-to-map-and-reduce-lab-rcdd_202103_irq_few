@@ -23,20 +23,20 @@ const mapToSquare = sourceArray =>{
 };
 
 const reduceToTotal = (sourceArray, startingPoint = 0) =>{
-  let total = startingPoint
-  sourceArray.forEach(element => total += element)
-  return total
-}
+  let total = startingPoint;
+  sourceArray.forEach(element => total += element);
+  return total;
+};
 
 const reduceToAllTrue = sourceArray =>{
-  let returnValue = true
+  let returnValue = true;
   sourceArray.forEach(value => {
     if (value === false){
-    returnValue = false
+    returnValue = false;
     }
-  })
-  return returnValue
-}
+  });
+  return returnValue;
+};
 
 const reduceToAnyTrue = sourceArray =>{
     let returnValue = false
